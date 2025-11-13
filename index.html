@@ -510,7 +510,7 @@
             { id: 14, name: 'Sabores do Pará', disabled: false, type: 'combo_selectable_size', description: 'Sugestão: banana, uva, leite em pó, leite condensado, creme de avelã (Nutella)', sizesKey: 'cupSizes' },
             { id: 15, name: 'Kids Especial', disabled: false, type: 'combo_selectable_size', description: 'Sugestão: M&M\'s, uva, creme de avelã (Nutella), leite em pó, leite condensado, banana', sizesKey: 'cupSizes' },
             { id: 16, name: 'Namorados', disabled: false, type: 'combo_selectable_size', description: 'Sugestão: uva, morango, creme de avelã (Nutella), leite em pó, leite condensado', sizesKey: 'cupSizes' },
-            { id: 17, name: 'Kitkat', disabled: false, type: 'combo_selectable_size', description: 'Sugestão: KitKat, creme de avelã, leite em pó, calda de chocolate', sizesKey: 'cupSizes' },
+            //{ id: 17, name: 'Kitkat', disabled: false, type: 'combo_selectable_size', description: 'Sugestão: KitKat, creme de avelã, leite em pó, calda de chocolate', sizesKey: 'cupSizes' }, // REMOVIDO: Combo KitKat
             { id: 18, name: 'Euforia', disabled: false, type: 'combo_selectable_size', description: 'Sugestão: morango, kiwi, banana, leite em pó, calda de morango', sizesKey: 'cupSizes' },
             { id: 19, name: 'Ninho (A)', disabled: false, type: 'combo_selectable_size', description: 'Sugestão: leite em po, morango, banana, leite condensado', sizesKey: 'cupSizes' },
             { id: 20, name: 'Bombom', disabled: false, type: 'combo_selectable_size', description: 'Sugestão: Sonho de Valsa, leite em pó, calda de chocolate, creme de avelã', sizesKey: 'cupSizes' },
@@ -535,7 +535,8 @@
                     { name: 'Paçoca' }, { name: 'Sorvete' }, { name: 'Tapioca' }, { name: 'Uva' },
                     // Itens antigos 'paid_tier2' (Doces e Chocolates)
                     { name: 'Bis Picado' }, { name: 'Chocopower' }, { name: 'Confetes' }, { name: 'Gotas de Chocolate' },
-                    { name: 'KitKat' }, { name: 'M&M\'s' }, { name: 'Ovomaltine' }, { name: 'Sonho de Valsa' } 
+                    //{ name: 'KitKat' }, // REMOVIDO: Ingrediente KitKat
+                    { name: 'M&M\'s' }, { name: 'Ovomaltine' }, { name: 'Sonho de Valsa' } 
                 ].map(item => ({ ...item, disabled: false }))
             },
             caldas: {
@@ -1754,3 +1755,4 @@
     </script>
 </body>
 </html>
+
